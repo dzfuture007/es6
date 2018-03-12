@@ -1,0 +1,13 @@
+libs/
+node_modules/
+node_modules.zip
+node-mongodb.7z
+reports/
+dist/
+npm-debug.log
+.idea/
+**/build/
+
+**/.sass-cache/
+**/*.css.map
+**/*.swp
