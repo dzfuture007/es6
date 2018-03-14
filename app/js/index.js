@@ -1,2 +1,2 @@
 //mport 'babel-polyfill';
-import test from './lessons/lesson8-Object';
+import test from './lessons/lesson9-Symbol';
