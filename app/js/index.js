@@ -1,2 +1,2 @@
 //mport 'babel-polyfill';
-import test from './lessons/lesson9-Symbol';
+import test from './lessons/lesson11-Proxy-Reflect.js';

@@ -1,13 +1,13 @@
 libs/
 node_modules/
 node_modules.zip
-node-mongodb.7z
 reports/
-dist/
+server/public/*
 npm-debug.log
-.idea/
 **/build/
-
 **/.sass-cache/
 **/*.css.map
 **/*.swp
+package-lock.json
+server/public/stylesheets/style.css
+server/views/index.ejs
