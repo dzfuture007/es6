@@ -60,5 +60,5 @@ gulp.task('scripts', () => {
         .pipe(gulp.dest('server/public/js'))
         // 监听文件，当文件变化的时候自动刷新页面
         // 判断命令行中是否有watch这个参数如果有的话就执行热更新
-        .pipe(gulpif(args.watch, livereload()))
+        .pipe(gulpif(args.watch, livereload()));
 })
