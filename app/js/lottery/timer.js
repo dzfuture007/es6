@@ -4,7 +4,7 @@ class Timer {
      * update：时间更新的回调
      * handle: 倒计时结束之后的回调
      */
-    countDown(end, update, handle) {
+    countdown(end, update, handle) {
         const now = new Date().getTime();
         const self = this;
 
@@ -55,7 +55,7 @@ class Timer {
             update.call(self, self.last_time);
 
             // 继续轮询倒计时
-            setTimeout(function () {
+            setTimeout(function() {
                 self.countdown(end, update, handle);
             }, 1000);
         }
